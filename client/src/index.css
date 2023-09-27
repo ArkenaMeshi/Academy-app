@@ -1,0 +1,150 @@
+.sign-up{
+  background-color: rgb(95, 156, 210);
+  width: 70px;
+  height: 30px;
+}
+form {
+  text-align: center;
+
+}
+h1{
+  color: purple;
+}
+.my-input{
+  box-sizing: border-box;
+  width: 150px;
+  height: 30px;
+}
+
+.belt_input{
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.degree_input{
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+
+}
+.checkbox{
+  width: 20px;
+  height: 20px;
+}
+
+.user-list-container {
+  margin: 90px;
+  margin-right: 10px;
+  border-radius: 80px;
+  width: 50%;
+}
+
+/* Style for user list item */
+.user-item {
+
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #dcd7d3;
+  margin-right: 10px;
+  border-radius: 80px;
+}
+
+/* Style for user image */
+.user-image {
+width:100px;
+height: 80px;
+margin-right: 90px;
+border: 2px solid black;
+border-radius: 30px;
+
+
+}
+
+/* Style for buttons delete */
+.button {
+  margin-left: 30px;
+  padding: 5px 10px;
+  border: none;
+  background-color:#e02d1b;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 160px;
+  height: 37px;
+}
+
+/* Style for the role paragraph */
+.role {
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 10px ;
+  width: 80px;
+  height: 25px;
+  background-color: white;
+  margin-left: 50px;
+  text-align: center;
+
+}
+/* Style for button view more */
+.view-more{
+  background-color: #54aa14;
+  width: 160px;
+  height: 37px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Style for buttonat */
+
+.buttonat{
+  display: flex;
+  margin-left: 300px;
+
+
+}
+
+.emri{
+  display: flex;
+    margin-left: 180px;
+ 
+}
+/* Style for detail */
+.te-dhenat{
+  display: flex;
+  margin: 50px;
+}
+.imazhi-detajet{
+  margin-left: 150px;
+  margin-top: 30px;
+ 
+}
+.update-user{
+text-align: left;
+margin-left: 20px;
+}
+.ndrysho{
+  color: white;
+  background-color: rgb(95, 156, 210);
+  width: 70px;
+  height: 30px;
+}
+.dtimazh{
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 60%;
+  height: 400px;
+ 
+
+}
+.image-update {
+
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 400px;
+ 
+}
+.update-kryesor{
+  display: flex;
+  margin: 50px;
+}
