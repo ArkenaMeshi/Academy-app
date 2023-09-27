@@ -33,7 +33,7 @@ const UserForm = (props) => {
       .then((res) => {
         console.log(res);
         console.log(res.data);
-        setValidation({})
+        // setValidation({})
         navigate("/user")
       })
       .catch(err=>{ console.log(err);err.response.data.errors? setValidation(err.response.data.errors): console.log(err)})
