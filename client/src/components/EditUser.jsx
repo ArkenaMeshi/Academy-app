@@ -126,6 +126,27 @@ const EditUser = (props) => {
       <div className="imazhi-detajet">
         <img src={user.image} alt="imazhi" className="image-update" />
       </div>
+      <p>
+      <label htmlFor="">Degree</label>
+            {/* <p>{JSON.stringify(user.degree)}</p> */}
+                        <input type='checkbox' checked={user.degree}
+                         onChange={e=>{setUser(prev=>({...prev,degree:e.target.checked}));
+                         setDegree2(e.target.checked) ;
+                        setDegree();console.log(e.target.checked)}}></input>
+                       
+                        <br/>
+
+                        <label htmlFor="">Belt</label>
+            {/* <p>{JSON.stringify(user.belt)}</p> */}
+                        <input type='checkbox' checked={user.belt}
+                         onChange={e=>{setUser(prev=>({...prev,belt:e.target.checked}));
+                         setBelt2(e.target.checked) ;
+                        setBelt();console.log(e.target.checked)}}></input>
+                        </p>
+
+
+
+
     </div>
   );
 };
